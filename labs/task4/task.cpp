@@ -3,13 +3,13 @@
 using namespace std;
 
 int main() {
-    cout << "\nВведіть будь-яке число: ";
+    cout << "\nEnter any number: ";
     double user_number;
     cin >> user_number;
 
     string user_str = std::to_string(user_number);
 
-    cout << "Ви ввели число " << user_number << ", яке як рядок виглядає так: " << user_str << std::endl;
+    cout << "You entered a number " << user_number << ", which as a string looks like this: " << user_str << std::endl;
 
     return 0;
 }
