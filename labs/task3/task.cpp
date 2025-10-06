@@ -7,8 +7,8 @@ int main() {
 
     size_t length = strlen(my_string);
 
-    cout << "Рядок: \"" << my_string << "\"" << std::endl;
-    cout << "Довжина цього рядка: " << length << std::endl;
+    cout << "Line: \"" << my_string << "\"" << std::endl;
+    cout << "The length of this string is: " << length << std::endl;
 
     return 0;
 }
