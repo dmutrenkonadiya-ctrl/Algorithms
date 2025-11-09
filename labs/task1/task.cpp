@@ -5,17 +5,17 @@ int main() {
 int start, end;
 int sum = 0;
 
-cout << "Введіть початок діапазону: ";
+cout << "Enter the start of the range: ";
 cin >> start;
-cout << "Введіть кінець діапазону: ";
+cout << "Enter the end of the range: ";
 cin >> end;
 
 if (start > end) {
-    cout << "Помилка: початок діапазону повинен бути менший за кінець!" << endl;
+    cout << "Error: The start of the range must be less than the end!" << endl;
     return 1;
 }
 
-cout << "Парні числа в діапазоні від " << start << " до " << end << ": ";
+cout << "Even numbers in the range from " << start << " до " << end << ": ";
 
 for (int i = start; i <= end; i++) {
         if (i % 2 == 0) {
@@ -25,7 +25,7 @@ for (int i = start; i <= end; i++) {
 }
 
 cout << endl;
-cout << "Сума всіх парних чисел: " << sum << endl;
+cout << "Sum of all even numbers: " << sum << endl;
 
 return 0;
 
